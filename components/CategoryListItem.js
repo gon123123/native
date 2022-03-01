@@ -17,7 +17,7 @@ export default function CategoryListItem(props) {
 const mBottom = 16;
 const styles = StyleSheet.create({
     container: {
-        width: 355,
+        // width: 355,
         height: 170,
         backgroundColor: "yellow",
         padding: 16,
