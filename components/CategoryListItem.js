@@ -7,9 +7,10 @@ import {
 } from 'react-native';
 import SkiiImage from '../assets/ski.png';
 export default function CategoryListItem(props) {
+    console.log(props);
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>Category List</Text>
+            <Text style={styles.title}>{props.name}</Text>
             <Image style={styles.categoryImage} source={SkiiImage}></Image>
         </View>
     )
